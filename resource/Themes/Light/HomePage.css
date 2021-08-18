@@ -1,0 +1,30 @@
+
+QFrame#protect_icon_label {
+    background-color: transparent;
+    color:rgba(8, 131, 217, 1);
+}
+
+
+QFrame {
+    background-color: none;
+}
+
+QPushButton {
+    background-color: qradialgradient(cx: 0.5, cy: 0.5, radius: 2, fx: 0.5, fy: 0.5,stop: 0 rgba(3, 112, 200, 1),stop: 0.3 rgba(8, 131, 217, 1),stop: 0.5 rgba(51, 191, 240, 1));
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+
+}
+
+QPushButton:hover {
+    background-color: rgba(5, 152, 255, 1);
+}
+
+QFrame#status_service_label, #status_rtp_label, #status_network_label, #status_cloud_label, #status_update_label, #status_threat_label {
+/*    background-color: qradialgradient(cx: 0.5, cy: 0.5, radius: 2, fx: 0.5, fy: 0.5,stop: 0 rgba(3, 112, 200, 1),stop: 0.3 rgba(8, 131, 217, 1),stop: 0.5 rgba(51, 191, 240, 1));*/
+/*    border-radius: 2px;*/
+    color:rgba(8, 131, 217, 1);
+}
+
+

@@ -1,0 +1,33 @@
+QFrame {
+    background-color: none;
+}
+
+QFrame #title_label {
+    color: black;
+}
+
+QFrame #update_icon_label {
+    color: rgba(3, 112, 200, 1);
+}
+
+QFrame#label, #label_2, #label_3, #label_4, #label_5, #label_6, #label_7, #label_8 {
+    color: rgba(5, 152, 255, 1);
+}
+
+QFrame#avsig_v_label, #avsig_last_v_label, #engine_v_label, #product_v_label, #assig_status_v_label, #assig_v_label, #avsig_status_v_label, #assig_last_v_label, #avsig_last_v_label {
+    color: rgba(3, 112, 200, 1);
+}
+
+
+QPushButton {
+    background-color: qradialgradient(cx: 0.5, cy: 0.5, radius: 2, fx: 0.5, fy: 0.5,stop: 0 rgba(3, 112, 200, 1),stop: 0.3 rgba(8, 131, 217, 1),stop: 0.5 rgba(51, 191, 240, 1));
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+
+}
+
+QPushButton:hover {
+    background-color: rgba(5, 152, 255, 1);
+}
+

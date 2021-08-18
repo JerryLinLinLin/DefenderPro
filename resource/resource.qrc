@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Themes/Light/Global.css</file>
+        <file>Themes/Light/HomePage.css</file>
+        <file>Themes/Light/SideWidget.css</file>
+        <file>Themes/Light/img/background.png</file>
+        <file>Themes/Light/AboutPage.css</file>
+        <file>Themes/Light/ScanPage.css</file>
+        <file>Themes/Light/SettingPage.css</file>
+        <file>Themes/Light/ThreatPage.css</file>
+        <file>Themes/Light/UpdatePage.css</file>
+    </qresource>
+</RCC>

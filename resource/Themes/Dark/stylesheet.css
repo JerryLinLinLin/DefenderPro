@@ -1,0 +1,43 @@
+QWidget#widget2
+{
+    font-family: "Segoe MDL2 Assets", "MS Shell Dlg 2";
+    background-color: black;
+}
+
+QFrame#line, QFrame#line_2,QFrame#line_3, QFrame#line_4, QFrame#line_5, QFrame#line_6
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+QPushButton[text=" Running"],
+QPushButton[text=" Enabled"],
+QPushButton[text=" Connected"]
+{
+    background-color: rgba(20, 149, 57, 1);
+
+}
+
+QLabel[text="Up to Date"]
+{
+    color: rgba(0, 189, 53, 1);
+}
+
+QTabWidget::pane { /* The tab widget frame */
+    border-top: none;
+    background-color: none;
+}
+
+QTabBar::tab {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                            stop: 0 #626770, stop: 0.4 #515761,
+                            stop: 0.5 #515761, stop: 1.0 #424750);
+    border: 0.5px solid #2b2d30;
+    border-bottom-color: #2b2d30; /* same as the pane color */
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    min-width: 12ex;
+    padding: 5px;
+}
+
+
+

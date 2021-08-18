@@ -1,0 +1,41 @@
+QWidget {
+/*    font-family: "Segoe UI", "MS Shell Dlg 2";*/
+    background-color: transparent;
+}
+QFrame#background_image_label {
+/*    border-image: url(:/Themes/Light/img/background.png);*/
+    background-color: white;
+}
+
+QFrame#background_mask_label {
+    background-color: rgba(240, 240, 240, 0.3);
+}
+
+/*QFrame#background_image_label {
+    background-color: white;
+}*/
+
+QFrame {
+    background-color: transparent;
+}
+
+
+
+QFrame#title_label {
+    color:rgba(58, 58, 58, 0.5);
+}
+
+
+QPushButton#close_pushButton, #mini_pushButton, #refresh_pushButton {
+    background-color:none;
+    border-style: none;
+    color: rgba(58, 58, 58, 1);
+}
+
+QPushButton#close_pushButton:hover,#mini_pushButton:hover, #refresh_pushButton:hover {
+    background-color: rgba(221, 221, 221, 1);
+}
+
+
+
+
